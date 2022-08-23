@@ -1,0 +1,149 @@
+/* cards */
+.buttoncards 
+{
+	background-color: black;
+	color: white;
+	width: 150px;
+	text-align: center;
+	padding: 10px 5px 10px 5px;
+	border-radius: 5px;
+	position: relative;
+left: 19%;
+}
+#testing1
+{
+	font-weight: 900;
+}
+#testing2
+{
+	padding: 10px 10px 10px 10px;
+	margin-top: 20px;
+}
+#testing
+{
+	text-align: center;
+}
+#testing, #testing1, #testing2
+{
+	background-color: transparent;
+	border: none;
+	font-family: poppins;
+}
+/* css for carosul */
+.carousel {
+ align-items: center;
+}
+
+.carousel-cell {
+  width: 300px;
+  height: 400px;
+  margin-right: 220px;
+  background-image: url(images/carousal-bg.png);
+   background-repeat: no-repeat;
+  background-size: 300px 400px;
+  border-radius: 5px;  
+}
+
+/* css for colappse */
+#heading 
+{
+  color: white !important;
+  background-color: black !important;
+  border-color: #ddd;
+}
+#collapseOne, #collapseTwo, #collapseThree, #collapseFour, #collapseFive
+{
+	background-color: #fcc407;
+}
+
+
+.wrapper{
+  width:70%;
+}
+@media(max-width:992px){
+ .wrapper{
+  width:100%;
+} 
+}
+.panel-heading {
+  padding: 0;
+	border:0;
+}
+.panel-title>a, .panel-title>a:active{
+	display:block;
+	padding:15px;
+  color:#555;
+  font-size:16px;
+  font-weight:bold;
+	letter-spacing:1px;
+  word-spacing:3px;
+	text-decoration:none !important;
+}
+.panel-heading  a:before {
+   font-family: 'Glyphicons Halflings';
+   content: "\e114";
+   float: right;
+   transition: all 0.5s;
+}
+.panel-heading.active a:before {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	transform: rotate(180deg);
+} 
+
+#navbar
+{
+	background-color: white;
+	height: 80px;
+	border-bottom-right-radius: 70px;
+	border-bottom-left-radius: 70px;
+}
+div#micon.collapse.navbar-collapse
+{
+	padding: 12px 0px 12px 0px;
+}
+.icon-bar
+{
+	color: green;
+}
+#img
+{
+	padding-left: 20px;
+	margin-right: 20px;
+}
+div.navbar-brand 
+{
+  float: left;
+  height: 50px;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 0px;
+  	padding-top: 12px;
+	padding-bottom: 12px;
+}
+#micon a
+{
+	color: gray;
+}
+#home
+{
+	background-color: #fcc407;
+	border-radius: 20px;
+	padding: 7px 15px 7px 15px;
+	color: white;
+	width: 99px;
+	text-align: center;
+}
+li#home
+{
+	margin-top: 8.5px;
+}
+.nav li
+{
+	padding: 0px 13px 0px 13px;
+
+}
+.icon-bar
+{
+	background-color: blue;
+}
